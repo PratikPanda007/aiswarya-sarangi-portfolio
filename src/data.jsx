@@ -1,6 +1,6 @@
 import proshopLandingPage from "./assets/images/proshopLandingPage.png";
 import linkSharingApp from "./assets/images/linkSharingApp.png";
-import Html5Svg from "./svg components/html5Svg";
+import Html5Svg from "./svg components/Html5Svg";
 import JavascriptSvg from "./svg components/JavascriptSvg";
 import Css3Svg from "./svg components/Css3Svg";
 import ReactSvg from "./svg components/ReactSvg";
