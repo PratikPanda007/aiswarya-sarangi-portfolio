@@ -4,8 +4,8 @@ import Html5Svg from "./svg components/html5Svg";
 import JavascriptSvg from "./svg components/JavascriptSvg";
 import Css3Svg from "./svg components/Css3Svg";
 import ReactSvg from "./svg components/ReactSvg";
-import ChromeSvg from "./svg components/ChromeSvg";
 import GithubSvg from "./svg components/GithubSvg";
+import TailwindCSSSvg from "./svg components/TailwindCSSSvg";
 export const portfolioProjects = [
   {
     company: "ECOMMERCE APP",
@@ -96,8 +96,8 @@ export const toolboxItems = [
     icon: <ReactSvg />,
   },
   {
-    title: "Chrome",
-    icon: <ChromeSvg />,
+    title: "TailwindCSS",
+    icon: <TailwindCSSSvg />
   },
   {
     title: "Github",
@@ -118,10 +118,6 @@ export const toolboxItems = [
   {
     title: "React",
     icon: <ReactSvg />,
-  },
-  {
-    title: "Chrome",
-    icon: <ChromeSvg />,
   },
   {
     title: "Github",
