@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html{
+    @apply scroll-smooth;
+  }
+  html::-webkit-scrollbar{
+    display: none
+  }
+  body {
+    @apply bg-gray-900 text-white antialiased font-inter;
+  }
+}
+
+@layer components {
+  .nav-item {
+    @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/70 hover:text-gray-900 transition duration-300;
+  }
+
+  .hero-ring {
+    @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-emerald-200/5 shadow-[0_0_80px_inset] shadow-emerald-300/5 rounded-full;
+  }
+}
+
+@layer utilities {
+  .container{
+    @apply lg:max-w-5xl;
+  }
+}
+
+@layer components {
+  .no-scrollbar::-webkit-scrollbar{
+    display: none;
+  }
+}
