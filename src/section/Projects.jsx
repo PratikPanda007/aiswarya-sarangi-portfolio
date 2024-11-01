@@ -1,4 +1,4 @@
-import { portfolioProjects } from "../constants";
+import { projects } from "../data";
 import CheckCircle from "../svg components/CheckCircle";
 import ArrowUpRight from "../svg components/ArrowUpRight";
 import grain from "../assets/images/grain.jpg";
@@ -18,7 +18,7 @@ const Projects = () => {
           See how I transformed concepts into engaging digital experiences.
         </p>
         <div className="flex flex-col items-center gap-20">
-          {portfolioProjects.map((project, index) => (
+          {projects.map((project, index) => (
             <div
               key={project.title}
               className="sticky lg:relative px-8 pt-8 bg-gray-800 rounded-3xl border-2 border-white/20 overflow-y-hidden z-0 md:pt-12 md:px-12 lg:max-w-full lg:pb-12"

@@ -1,5 +1,5 @@
 import { motion, useDragControls } from "framer-motion";
-import { hobbies, toolboxItems } from "../constants";
+import { hobbies, toolboxItems } from "../data";
 import bookCover from "../assets/images/book-cover.png";
 import Star from "../svg components/Star";
 import grain from "../assets/images/grain.jpg";

@@ -1,60 +1,8 @@
 import grain from "../assets/images/grain.jpg";
-import githubProfiles from "../assets/images/github-profiles.png";
-import netflixUI from "../assets/images/netflix-ui-clone.png";
-import seemlessScrolling from "../assets/images/seemless-scrolling.png";
-import mixMaster from "../assets/images/mix-master.png";
+import { miniProjects } from "../data";
 import ArrowUpRight from "../svg components/ArrowUpRight";
 import { useId } from "react";
-const projects = [
-  {
-    image: githubProfiles,
-    codeLink: "https://github.com/aiswarya8110/GitHub-Profiles",
-    liveLink: "https://view-github-profiles-app.netlify.app/",
-    title: "Github Profiles",
-  },
-  {
-    image: netflixUI,
-    codeLink: "https://github.com/aiswarya8110/netflix-ui-clone-app",
-    liveLink: "https://neflix-ui-clone-app-b724fb.netlify.app/",
-    title: "Netflix UI",
-  },
-  {
-    image: seemlessScrolling,
-    codeLink: "https://github.com/aiswarya8110/Seemless-Scrolling",
-    liveLink: "https://seamless-scrolling.netlify.app/",
-    title: "Seemless Scrolling",
-  },
-  {
-    image: mixMaster,
-    codeLink: "https://github.com/aiswarya8110/react-mix-master-app",
-    liveLink: "https://mix-master-9058e8.netlify.app/",
-    title: "Mix Master",
-  },
-  {
-    image: githubProfiles,
-    codeLink: "https://github.com/aiswarya8110/GitHub-Profiles",
-    liveLink: "https://view-github-profiles-app.netlify.app/",
-    title: "Github Profiles",
-  },
-  {
-    image: netflixUI,
-    codeLink: "https://github.com/aiswarya8110/netflix-ui-clone-app",
-    liveLink: "https://neflix-ui-clone-app-b724fb.netlify.app/",
-    title: "Netflix UI",
-  },
-  {
-    image: seemlessScrolling,
-    codeLink: "https://github.com/aiswarya8110/Seemless-Scrolling",
-    liveLink: "https://seamless-scrolling.netlify.app/",
-    title: "Seemless Scrolling",
-  },
-  {
-    image: mixMaster,
-    codeLink: "https://github.com/aiswarya8110/react-mix-master-app",
-    liveLink: "https://mix-master-9058e8.netlify.app/",
-    title: "Mix Master",
-  },
-];
+
 
 const MiniProjects = () => {
   return (
@@ -74,7 +22,7 @@ const MiniProjects = () => {
         </p>
         <div className="-mt-10 overflow-x-scroll no-scrollbar [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="inline-flex justify-start gap-8 p-10 animate-move-tape-left">
-            {projects.map((project) => {
+            {miniProjects.map((project) => {
               return (
                 <div
                   key={useId()}

@@ -6,7 +6,11 @@ import Css3Svg from "./svg components/Css3Svg";
 import ReactSvg from "./svg components/ReactSvg";
 import GithubSvg from "./svg components/GithubSvg";
 import TailwindCSSSvg from "./svg components/TailwindCSSSvg";
-export const portfolioProjects = [
+import githubProfiles from "./assets/images/github-profiles.png";
+import netflixUI from "./assets/images/netflix-ui-clone.png";
+import seemlessScrolling from "./assets/images/seemless-scrolling.png";
+import mixMaster from "./assets/images/mix-master.png";
+export const projects = [
   {
     company: "ECOMMERCE APP",
     year: "2024",
@@ -30,6 +34,57 @@ export const portfolioProjects = [
     ],
     link: "https://mern-link-sharing-app.onrender.com/",
     image: linkSharingApp,
+  },
+];
+
+export const miniProjects = [
+  {
+    image: githubProfiles,
+    codeLink: "https://github.com/aiswarya8110/GitHub-Profiles",
+    liveLink: "https://view-github-profiles-app.netlify.app/",
+    title: "Github Profiles",
+  },
+  {
+    image: netflixUI,
+    codeLink: "https://github.com/aiswarya8110/netflix-ui-clone-app",
+    liveLink: "https://neflix-ui-clone-app-b724fb.netlify.app/",
+    title: "Netflix UI",
+  },
+  {
+    image: seemlessScrolling,
+    codeLink: "https://github.com/aiswarya8110/Seemless-Scrolling",
+    liveLink: "https://seamless-scrolling.netlify.app/",
+    title: "Seemless Scrolling",
+  },
+  {
+    image: mixMaster,
+    codeLink: "https://github.com/aiswarya8110/react-mix-master-app",
+    liveLink: "https://mix-master-9058e8.netlify.app/",
+    title: "Mix Master",
+  },
+  {
+    image: githubProfiles,
+    codeLink: "https://github.com/aiswarya8110/GitHub-Profiles",
+    liveLink: "https://view-github-profiles-app.netlify.app/",
+    title: "Github Profiles",
+  },
+  {
+    image: netflixUI,
+    codeLink: "https://github.com/aiswarya8110/netflix-ui-clone-app",
+    liveLink: "https://neflix-ui-clone-app-b724fb.netlify.app/",
+    title: "Netflix UI",
+  },
+  {
+    image: seemlessScrolling,
+    codeLink: "https://github.com/aiswarya8110/Seemless-Scrolling",
+    liveLink: "https://seamless-scrolling.netlify.app/",
+    title: "Seemless Scrolling",
+  },
+  {
+    image: mixMaster,
+    codeLink: "https://github.com/aiswarya8110/react-mix-master-app",
+    liveLink: "https://mix-master-9058e8.netlify.app/",
+    title: "Mix Master",
   },
 ];
 
@@ -122,6 +177,13 @@ export const toolboxItems = [
   {
     title: "Github",
     icon: <GithubSvg />,
+  }, {
+    title: "Javascript",
+    icon: <JavascriptSvg />,
+  },
+  {
+    title: "HTML5",
+    icon: <Html5Svg />,
   },
 ];
 

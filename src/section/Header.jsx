@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { headerData } from "../constants";
+import { headerData } from "../data";
 
 const Header = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
