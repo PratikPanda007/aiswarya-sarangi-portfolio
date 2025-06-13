@@ -66,16 +66,14 @@ const About = () => {
               </p>
               <TechSvg />
               <Toolboxes
-                toolboxItems={toolboxItems}
+                toolboxItems={toolboxItems.slice(0, 6)}
                 toolboxItemsStyles={{
                   animation: "move-tape-left 20s linear infinite",
                 }}
               />
               <Toolboxes
-                toolboxItems={toolboxItems}
-                toolboxItemsStyles={{
-                  animation: "move-tape-right 20s linear infinite",
-                }}
+                toolboxItems={toolboxItems.slice(6).reverse()}
+                toolboxItemsStyles={{ animation: "move-tape-right 10s linear infinite" }}
               />
             </div>
           </div>

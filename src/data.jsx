@@ -10,6 +10,11 @@ import githubProfiles from "./assets/images/github-profiles.png";
 import netflixUI from "./assets/images/netflix-ui-clone.png";
 import seemlessScrolling from "./assets/images/seemless-scrolling.png";
 import mixMaster from "./assets/images/mix-master.png";
+import Redux from "./svg components/Redux";
+import StyledCompo from "./svg components/StyledCompo";
+import ReactHooks from "./svg components/ReactHooks";
+import Postman from "./svg components/Postman";
+import APIIcon from "./svg components/API";
 export const projects = [
   {
     company: "ECOMMERCE APP",
@@ -150,6 +155,18 @@ export const toolboxItems = [
     title: "React",
     icon: <ReactSvg />,
   },
+   {
+     title: "Redux",
+    icon: <Redux />,
+  },
+  {
+    title: "Styled Components",
+    icon: <StyledCompo />,
+  },
+  {
+    title: "React Hooks",
+    icon: <ReactHooks />,
+  },
   {
     title: "TailwindCSS",
     icon: <TailwindCSSSvg />
@@ -159,31 +176,12 @@ export const toolboxItems = [
     icon: <GithubSvg />,
   },
   {
-    title: "Javascript",
-    icon: <JavascriptSvg />,
+    title: "Postman",
+    icon: <Postman />,
   },
   {
-    title: "HTML5",
-    icon: <Html5Svg />,
-  },
-  {
-    title: "CSS3",
-    icon: <Css3Svg />,
-  },
-  {
-    title: "React",
-    icon: <ReactSvg />,
-  },
-  {
-    title: "Github",
-    icon: <GithubSvg />,
-  }, {
-    title: "Javascript",
-    icon: <JavascriptSvg />,
-  },
-  {
-    title: "HTML5",
-    icon: <Html5Svg />,
+    title: "API",
+    icon: <APIIcon />,
   },
 ];
 

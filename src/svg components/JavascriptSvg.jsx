@@ -1,4 +1,3 @@
-import React from "react";
 import { ICON_SIZE } from "../assets/constants";
 const JavascriptSvg = () => {
   return (

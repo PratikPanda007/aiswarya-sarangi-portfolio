@@ -12,33 +12,34 @@ export default {
           '75%, 100%': {
             transform: 'scale(3)',
             opacity: 0,
-          }
+          },
         },
         'move-tape-left': {
-          '0%':{
-            transform: 'translateX(0%)'
+          '0%': {
+            transform: 'translateX(0%)',
           },
-          '100%':{
-            transform: 'translateX(-70%)'
-          }
+          '100%': {
+            transform: 'translateX(-70%)',
+          },
         },
         'move-tape-right': {
           '0%': {
-            transform: 'translateX(-50%)'
+            transform: 'translateX(-50%)',
           },
           '100%': {
-            transform: 'translateX(0%)'
-          }
+            transform: 'translateX(0%)',
+          },
         },
         'bounce-slow': {
           '0%, 100%': {
-            transform: 'translateY(0%)'
+            transform: 'translateY(0%)',
           },
           '50%': {
-            transform: 'translateY(-30%)'
-          }
-        }
+            transform: 'translateY(-30%)',
+          },
+        },
       },
+
       animation: {
         'spin-slow': 'spin 20s linear infinite',
         'spin-slower': 'spin 40s linear infinite',
