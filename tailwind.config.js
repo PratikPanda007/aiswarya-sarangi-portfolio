@@ -45,8 +45,8 @@ export default {
         'spin-slower': 'spin 40s linear infinite',
         'spin-slowest': 'spin 60s linear infinite',
         'ping-large': 'ping-large 1s ease-in-out infinite',
-        'move-tape-left': 'move-tape-left 40s linear infinite',
-        'move-tape-right': 'move-tape-right 40s linear infinite',
+        'move-tape-left': 'move-tape-left 30s linear infinite',
+        'move-tape-right': 'move-tape-right 10s linear infinite',
         'bounce-slow': 'bounce-slow 4s ease-out infinite'
       }
     },

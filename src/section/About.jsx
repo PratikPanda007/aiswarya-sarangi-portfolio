@@ -65,7 +65,7 @@ const About = () => {
                 digital experiences.
               </p>
               <TechSvg />
-              <Toolboxes
+              {/* <Toolboxes
                 toolboxItems={toolboxItems.slice(0, 6)}
                 toolboxItemsStyles={{
                   animation: "move-tape-left 20s linear infinite",
@@ -74,6 +74,14 @@ const About = () => {
               <Toolboxes
                 toolboxItems={toolboxItems.slice(6).reverse()}
                 toolboxItemsStyles={{ animation: "move-tape-right 10s linear infinite" }}
+              /> */}
+              <Toolboxes
+                toolboxItems={toolboxItems.slice(0, 6)}
+                className="animate-move-tape-left"
+              />
+              <Toolboxes
+                toolboxItems={toolboxItems.slice(6).reverse()}
+                className="animate-move-tape-right"
               />
             </div>
           </div>
